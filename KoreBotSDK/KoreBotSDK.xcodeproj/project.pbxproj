@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D0F0FAE20EEE5D9003EB9CD /* Mantle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2DBD7FDA20EED4E7002F7026 /* Mantle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2DBD7F8020EED1A6002F7026 /* KoreBotSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBD7F7E20EED1A6002F7026 /* KoreBotSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DBD7FB820EED2ED002F7026 /* BotClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD7F8F20EED2ED002F7026 /* BotClient.swift */; };
 		2DBD7FB920EED2EE002F7026 /* RTMPersistentConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD7F9120EED2ED002F7026 /* RTMPersistentConnection.swift */; };
@@ -46,6 +47,19 @@
 		2DBD7FE320EED5B0002F7026 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBD7FE220EED5B0002F7026 /* CoreTelephony.framework */; };
 		2DBD7FE520EED5D5002F7026 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBD7FE420EED5D5002F7026 /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D0F0FAD20EEE5C7003EB9CD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2D0F0FAE20EEE5D9003EB9CD /* Mantle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2DBD7F7B20EED1A6002F7026 /* KoreBotSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KoreBotSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -299,6 +313,7 @@
 				2DBD7F7820EED1A6002F7026 /* Headers */,
 				2DBD7F7920EED1A6002F7026 /* Resources */,
 				2D0F0FA920EEE14B003EB9CD /* ShellScript */,
+				2D0F0FAD20EEE5C7003EB9CD /* CopyFiles */,
 			);
 			buildRules = (
 			);
